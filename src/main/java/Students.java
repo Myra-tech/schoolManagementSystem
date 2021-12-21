@@ -77,7 +77,7 @@ public class Students {
             return "Student's Name: " + name + surname + "\n" +
                     "ID: " + id + "\n" +
                     "Age: " + age + "\n"+
-                    "Course enrolled: " + courseEnrolled + "\n";
+                    "courses.Course enrolled: " + courseEnrolled + "\n";
         }
 
 

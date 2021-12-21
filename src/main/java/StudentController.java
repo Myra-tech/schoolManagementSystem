@@ -30,7 +30,7 @@ public class StudentController {
         for (Students st : studentlist) {
             if (st.getId() == id) {
                 System.out.println("Student Id: " + st.getId() + " Student Name: " + st.getName()
-                        + " Age: " + st.getAge() + " Course enrolled: " + st.getCourseEnrolled());
+                        + " Age: " + st.getAge() + " courses.Course enrolled: " + st.getCourseEnrolled());
                 search = false;
             }
         }

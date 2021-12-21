@@ -1,3 +1,5 @@
+package courses;
+
 public class Course <CourseType> {
 
     private final CourseType course;
